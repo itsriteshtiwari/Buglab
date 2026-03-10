@@ -66,3 +66,11 @@ npm install
 # Start the React development server
 npm run dev
 ```
+## 💡 How to Use
+1. Open `http://localhost:5173` in your browser.
+2. Click + Report Bug and paste your broken code into the text area. Watch the AI auto-detect your language and priority!
+3. Submit the bug, then click on it in the left-hand list.
+4. Click the ⚡ Analyze & Fix button to let Gemini figure out exactly how to solve your issue.
+
+## 📄 License
+This project is open-source and available under the MIT License.
