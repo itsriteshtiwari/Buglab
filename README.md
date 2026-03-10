@@ -45,3 +45,24 @@ source venv/bin/activate
 
 # Install the required Python packages
 pip install fastapi uvicorn pydantic google-genai
+```
+
+### Add your API Key:
+Open `main.py` and replace `"YOUR_GEMINI_API_KEY"` with your actual Gemini API key from Google AI Studio.
+
+### Start the Server:
+```
+uvicorn main:app --reload
+```
+### 2. Set Up the Frontend (React)
+Open a new terminal window, leaving the backend server running.
+```
+# Navigate to the frontend directory (if you placed it in a subfolder)
+cd frontend
+
+# Install Node modules
+npm install
+
+# Start the React development server
+npm run dev
+```
